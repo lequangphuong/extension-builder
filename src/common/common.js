@@ -1,0 +1,1 @@
+console.log('Injected file common.js');
