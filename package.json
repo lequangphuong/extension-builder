@@ -2,13 +2,13 @@
   "name": "extension-builder",
   "version": "1.0.0",
   "description": "Build extension for multi browsers",
-  "main": "main.js",
+  "main": "extension-builder.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node extension-builder.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "extension-builder": "./main.js"
+    "extension-builder": "./extension-builder.js"
   },
   "keywords": [
     "extension",
@@ -16,5 +16,9 @@
     "extension browser"
   ],
   "author": "lequangphuong",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.17.1"
+  },
+  "devDependencies": {}
 }
